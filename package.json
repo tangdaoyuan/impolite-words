@@ -6,6 +6,8 @@
     "impolite",
     "swear"
   ],
+  "license": "MIT",
+  "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,8 +18,6 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
-  "license": "MIT",
   "resolutions": {
     "esbuild": "npm:esbuild-wasm"
   },
@@ -27,14 +27,14 @@
     "stub": "unbuild --stub",
     "build": "unbuild"
   },
+  "dependencies": {
+    "fs-extra": "^10.0.1"
+  },
   "devDependencies": {
     "@suger-tdy/eslint-config": "^1.0.1",
     "@types/fs-extra": "^9.0.13",
     "eslint": "^8.13.0",
     "unbuild": "^0.7.3",
     "vitest": "^0.9.3"
-  },
-  "dependencies": {
-    "fs-extra": "^10.0.1"
   }
 }
