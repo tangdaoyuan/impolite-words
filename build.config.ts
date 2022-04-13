@@ -9,5 +9,8 @@ export default defineBuildConfig({
   declaration: true,
   rollup: {
     emitCJS: true,
+    json: {
+      include: '**/*.json',
+    },
   },
 })
