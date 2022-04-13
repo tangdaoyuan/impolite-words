@@ -1,0 +1,27 @@
+{
+  "name": "impolite-word",
+  "version": "0.0.1",
+  "description": "impolite word, swear word...",
+  "main": "index.js",
+  "keywords": [
+    "impolite",
+    "swear"
+  ],
+  "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
+  "license": "MIT",
+  "resolutions": {
+    "esbuild": "npm:esbuild-wasm"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "vitest",
+    "stub": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "devDependencies": {
+    "@suger-tdy/eslint-config": "^1.0.1",
+    "eslint": "^8.13.0",
+    "unbuild": "^0.7.3",
+    "vitest": "^0.9.3"
+  }
+}
