@@ -2,11 +2,20 @@
   "name": "impolite-word",
   "version": "0.0.1",
   "description": "impolite word, swear word...",
-  "main": "index.js",
   "keywords": [
     "impolite",
     "swear"
   ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
   "license": "MIT",
   "resolutions": {
