@@ -2,11 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
-
-  workflow_dispatch:
+    branches: [master]
 
 jobs:
   lint:
@@ -17,7 +15,7 @@ jobs:
 
       - name: Setup PNPM
         uses: pnpm/action-setup@v2.2.1
-      
+
       - name: Setup Node
         uses: actions/setup-node@v3.1.1
         with:
@@ -29,7 +27,7 @@ jobs:
 
       - name: Lint
         run: pnpm run lint
-  
+
   test:
     runs-on: ${{ matrix.os }}
 
