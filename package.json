@@ -1,6 +1,7 @@
 {
   "name": "impolite-word",
   "version": "0.0.2",
+  "packageManager": "pnpm@6.32.2",
   "description": "impolite word, swear word...",
   "keywords": [
     "impolite",
