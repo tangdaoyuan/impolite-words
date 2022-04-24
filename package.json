@@ -34,14 +34,14 @@
     "release": "bumpp --commit --tag --push && npm publish"
   },
   "dependencies": {
-    "fs-extra": "^10.0.1"
+    "fs-extra": "^10.1.0"
   },
   "devDependencies": {
-    "@suger-tdy/eslint-config": "^1.0.1",
+    "@suger-tdy/eslint-config": "^1.0.3",
     "@types/fs-extra": "^9.0.13",
     "bumpp": "^7.1.1",
-    "eslint": "^8.13.0",
-    "unbuild": "^0.7.3",
-    "vitest": "^0.9.3"
+    "eslint": "^8.14.0",
+    "unbuild": "^0.7.4",
+    "vitest": "^0.9.4"
   }
 }
