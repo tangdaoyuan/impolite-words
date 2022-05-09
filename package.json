@@ -27,7 +27,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "vitest",
+    "test": "vitest run",
     "stub": "unbuild --stub",
     "build": "unbuild",
     "prepublishOnly": "npm run build",
@@ -37,10 +37,10 @@
     "fs-extra": "^10.1.0"
   },
   "devDependencies": {
-    "@suger-tdy/eslint-config": "^1.0.3",
+    "@suger-tdy/eslint-config": "^1.0.7",
     "@types/fs-extra": "^9.0.13",
     "bumpp": "^7.1.1",
-    "eslint": "^8.14.0",
+    "eslint": "^8.15.0",
     "unbuild": "^0.7.4",
     "vitest": "^0.9.4"
   }
