@@ -37,10 +37,10 @@
     "fs-extra": "^10.1.0"
   },
   "devDependencies": {
-    "@suger-tdy/eslint-config": "^1.1.1",
+    "@suger-tdy/eslint-config": "^1.1.2",
     "@types/fs-extra": "^9.0.13",
     "bumpp": "^7.1.1",
-    "eslint": "^8.16.0",
+    "eslint": "^8.17.0",
     "unbuild": "^0.7.4",
     "vitest": "^0.9.4"
   }
